@@ -1,4 +1,4 @@
-# This is going to be our README file.
+# Collaborative Coding Repo
 
 TASK: A is a set of points in 3D space. B is another set of points in 3D space. d1, d2, d3, d4, and d5 are five constant numeric values representing five distances for which applies d1 < d2 < d3 < d4 < d5. Write fast Python code that for each point in set A counts how many points from set B are at different ranges of distances from that point (see the pseudocode below). GOAL: Code execution time should be as short as possible.
 
@@ -6,6 +6,7 @@ INPUTS: A, B, d1, d2, d3, d4, d5
 
 FOR each pointA in set A
 
+```
 count1 = 0
 count2 = 0
 count3 = 0
@@ -30,3 +31,4 @@ FOR each pointB in set B
 
 ENDFOR
 ENDFOR
+```
